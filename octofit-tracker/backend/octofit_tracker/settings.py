@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-y)0ut!-ff6+bei)9pffuby#(io*3&j84_gcj*@pn*k(_v3c8fw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'didactic-bassoon-xxrxrw666wj3694p-8000.app.github.dev',
+]
 
 
 # Application definition
